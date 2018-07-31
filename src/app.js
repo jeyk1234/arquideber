@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 
 const app = express();
-mongoose.connect('mongodb://localhost:27017/futbolito')
+mongoose.connect('mongodb://heroku_n964lbkb:f22uo3b4qr71mmhp6tufra94p2@ds159641.mlab.com:59641/heroku_n964lbkb')
     .then(db => console.log('BD esta conectada'))
     .catch(err => console.error(err));
 //settings
